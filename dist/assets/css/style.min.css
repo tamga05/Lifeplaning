@@ -320,11 +320,6 @@ template {
 [hidden] {
   display: none; }
 
-.container {
-  max-width: 1130px;
-  margin: 0 auto;
-  padding: 0 10px; }
-
 @font-face {
   font-family: "OpenSans-Bold";
   src: url("/assets/fonts/woff2/OpenSans-Bold.woff2") format("woff2"); }
@@ -355,29 +350,43 @@ template {
 
 @font-face {
   font-family: "Schwabacher";
-  src: url("/assets/fonts/woff2/Schwabacher.woff2") format("woff2"); }
+  src: url("/assets/fonts/gothic/Schwabacher.woff2") format("woff2"); }
 
-.header {
-  background-image: url(./../images/.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh; }
-  .header__wrapper {
-    max-width: 1720px;
-    width: 100%;
-    height: 315px;
-    padding-top: 90px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    position: relative; }
+.container-fluid {
+  background-image: url(../../images/get-started/clouds.svg); }
 
-.get-started {
-  background-image: url(./../assets/images/get-started/clouds.svg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat; }
+.get-started__subtitle {
+  font-family: "Roboto-Regular";
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF; }
+
+.get-started__title {
+  font-family: "Quicksand-Regular";
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+  color: #FFFFFF; }
+
+.get-started__span {
+  font-family: "Quicksand-Regular";
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+  color: #FFFFFF; }
+
+.get-started__text {
+  font-family: "Roboto-Regular";
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #FFFFFF; }
 
 /*# sourceMappingURL=style.min.css.map */

@@ -1,7 +1,47 @@
-.get-started {
-    background-image: url(./../assets/images/get-started/clouds.svg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.container-fluid {
+    background-image: url(../../images/get-started/clouds.svg);
+    // background-size: cover;
+    // background-position: center;
+    // background-repeat: no-repeat;
+    // object-fit: cover;
+}
 
+.get-started {
+    &__subtitle {
+        font-family: "Roboto-Regular";
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 12px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    &__title {
+        font-family: "Quicksand-Regular";
+        font-weight: 300;
+        font-size: 48px;
+        line-height: 60px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    &__span {
+        font-family: "Quicksand-Regular";
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 60px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    &__text {
+        font-family: "Roboto-Regular";
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 29px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+    }
 }

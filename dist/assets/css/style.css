@@ -425,3 +425,10 @@ template {
     align-items: center;
     position: relative;
 }
+
+.get-started {
+    background-image: url(./../assets/images/get-started/clouds.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

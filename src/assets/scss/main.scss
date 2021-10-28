@@ -1,4 +1,4 @@
-@import "./base/normalize.scss";
+@import "./base/normalize";
 
 
 // body {
@@ -6,7 +6,7 @@
 // }
 
 
-@import "./common/container";
+//@import "./common/container";
 
 
 //@import "./abstracts/variables";
@@ -21,7 +21,7 @@
 //@import "./components/heading";
 
 
-@import "./layout/header";
+//@import "./layout/header";
 @import "./layout/get-started";
 //@import "./layout/footer";
 
