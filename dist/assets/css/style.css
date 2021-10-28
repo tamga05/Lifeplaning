@@ -399,7 +399,6 @@ template {
 .get-started {
     height: 447px;
     background: linear-gradient(229.32deg, #6888FF 12.77%, #5E80FF 73.11%);
-    background-image: url(../images/get-started/clouds.svg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -413,6 +412,7 @@ template {
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: #FFFFFF;
+    text-align: center;
 }
 
 .get-started__title {
@@ -441,4 +441,12 @@ template {
     text-align: center;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+}
+
+.get-started .btn-secondary {
+    background-color: #A0B4FF;
+}
+
+.get-started .btn-group__link {
+    text-decoration: none;
 }
