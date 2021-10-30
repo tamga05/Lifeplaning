@@ -397,11 +397,8 @@ template {
 }
 
 .get-started {
-    height: 447px;
     background: linear-gradient(229.32deg, #6888FF 12.77%, #5E80FF 73.11%);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    border-color: #d8e3fe;
 }
 
 .get-started__subtitle {
@@ -410,9 +407,7 @@ template {
     font-size: 10px;
     line-height: 12px;
     letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    text-align: center;
+    margin-top: 91px;
 }
 
 .get-started__title {
@@ -420,8 +415,6 @@ template {
     font-weight: 300;
     font-size: 48px;
     line-height: 60px;
-    text-align: center;
-    color: #FFFFFF;
 }
 
 .get-started__span {
@@ -429,8 +422,6 @@ template {
     font-weight: 500;
     font-size: 48px;
     line-height: 60px;
-    text-align: center;
-    color: #FFFFFF;
 }
 
 .get-started__text {
@@ -438,9 +429,7 @@ template {
     font-weight: normal;
     font-size: 15px;
     line-height: 29px;
-    text-align: center;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
 }
 
 .get-started .btn-secondary {
