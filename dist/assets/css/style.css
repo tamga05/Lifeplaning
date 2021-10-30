@@ -412,9 +412,9 @@ template {
 
 .get-started__title {
     font-family: "Quicksand-Regular";
-    font-weight: 300;
     font-size: 48px;
     line-height: 60px;
+    margin-bottom: 28px;
 }
 
 .get-started__span {
@@ -426,7 +426,6 @@ template {
 
 .get-started__text {
     font-family: "Roboto-Regular";
-    font-weight: normal;
     font-size: 15px;
     line-height: 29px;
     letter-spacing: 0.03em;
@@ -434,8 +433,4 @@ template {
 
 .get-started .btn-secondary {
     background-color: #6888FF;
-}
-
-.get-started .btn-group__link {
-    text-decoration: none;
 }

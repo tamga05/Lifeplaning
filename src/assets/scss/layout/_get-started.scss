@@ -13,10 +13,9 @@
 
     &__title {
         font-family: "Quicksand-Regular";
-        font-weight: 300;
         font-size: 48px;
         line-height: 60px;
-        //color: #FFFFFF;
+        margin-bottom: 28px;
     }
 
     &__span {
@@ -24,24 +23,41 @@
         font-weight: 500;
         font-size: 48px;
         line-height: 60px;
-        //color: #FFFFFF;
     }
 
     &__text {
+        max-width: 712px;
         font-family: "Roboto-Regular";
-        font-weight: normal;
         font-size: 15px;
         line-height: 29px;
         letter-spacing: 0.03em;
-        //color: #FFFFFF;
+        margin-bottom: 28px;
     }
 
-    .btn-secondary {
-        background-color: #6888FF;
-    }
+    .btn-group {
+        margin-bottom: 91px;
 
-    .btn-group__link {
-        text-decoration: none;
-    }
+        &__right {
+            width: 155px;
+            height: 43px;
+            color: #C7D3FF;
+            border-color: #a0b4ff;
+            font-family: "Quicksand-Regular";
+            font-size: 13px;
+            font-weight: 500;
+        }
+
+        &__left {
+            width: 130px;
+            height: 43px;
+            color: #565f82;
+            background-color: #ffffff;
+            box-shadow: 0 5px 15px 0 #6480e8;
+            font-family: "Quicksand-Regular";
+            font-size: 13px;
+            font-weight: 700;
+        }
 }
+}
+
 
