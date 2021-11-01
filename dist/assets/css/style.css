@@ -402,12 +402,11 @@ template {
 }
 
 .get-started {
+    background-image: url(./../images/get-started/bg-clouds.png);
+    background-position: center;
+    background-size: cover;
     background: linear-gradient(229.32deg, #6888ff 12.77%, #5e80ff 73.11%);
     border-color: #d8e3fe;
-    width: 247px;
-    height: 319px;
-    background-image: url(./../images/get-started/cloud-left.png);
-    background-size: cover;
 }
 
 .get-started__subtitle {
@@ -468,26 +467,4 @@ template {
     font-family: "Quicksand-Bold", sans-serif;
     font-weight: 700;
     font-size: 13px;
-}
-
-.container::before {
-    content: "";
-    width: 247px;
-    height: 319px;
-    background-image: url(./../images/get-started/cloud-left.png);
-    background-size: cover;
-    position: absolute;
-    top: 72px;
-    left: -80px;
-}
-
-.container::after {
-    content: "";
-    width: 425px;
-    height: 186px;
-    background-image: url(./../images/get-started/cloud-right.png);
-    background-size: cover;
-    position: absolute;
-    top: 175px;
-    right: -60px;
 }

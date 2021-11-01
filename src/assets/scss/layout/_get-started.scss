@@ -1,23 +1,10 @@
 .get-started {
-    background: linear-gradient(229.32deg, #6888ff 12.77%, #5e80ff 73.11%);
-    border-color: #d8e3fe;
-
-    background-image: url(./../images/get-started/cloud-left.png);
-    width: 247px;
-    height: 319px;
-    background-position: 0% 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
-
-    background-image: url(./../images/get-started/cloud-right.png);
+    background-image: url(./../images/get-started/bg-clouds.png);
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
 
-
-
-
-
+    background: linear-gradient(229.32deg, #6888ff 12.77%, #5e80ff 73.11%);
+    border-color: #d8e3fe;
 
 
     &__subtitle {
@@ -85,6 +72,3 @@
     }
 }
 
-.container {
-
-}
