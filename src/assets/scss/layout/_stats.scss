@@ -1,5 +1,4 @@
 .stats {
-    height: 342px;
     border-top: 1px solid rgba(216, 227, 254, 1);
 
     &__block-left {
@@ -10,7 +9,7 @@
     }
 
     &__block-left-percent {
-        font-family: "Quicksand-Regular";
+        font-family: "Quicksand-Regular", sans-serif;
         font-size: 48px;
         line-height: 83px;
         letter-spacing: 0.03em;
@@ -20,7 +19,7 @@
     &__block-left-text {
         max-width: 260px;
         height: 45px;
-        font-family: "Quicksand-Medium";
+        font-family: "Quicksand-Medium", sans-serif;
         font-size: 18px;
         line-height: 23px;
         letter-spacing: 0.03em;
@@ -35,7 +34,7 @@
 
     &__block-right-number {
         color: #5E80FF;
-        font-family: "Quicksand-Regular";
+        font-family: "Quicksand-Regular", sans-serif;
         font-size: 48px;
         line-height: 83px;
         letter-spacing: 0.03em;
@@ -46,7 +45,7 @@
         color: #5E80FF;
         max-width: 260px;
         height: 45px;
-        font-family: "Quicksand-Medium";
+        font-family: "Quicksand-Medium", sans-serif;
         font-size: 18px;
         line-height: 23px;
         letter-spacing: 0.03em;

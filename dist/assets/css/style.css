@@ -401,6 +401,149 @@ template {
   src: url("./../fonts/gothic/Schwabacher.woff2") format("woff2");
 }
 
+.features {
+    background: url(./../images/features/bg-clouds.png);
+    background-repeat: no-repeat;
+    background-position: 126px 141px;
+}
+
+.features__about {
+    font-family: "Roboto-Medium", sans-serif;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.1em;
+    color: #3d4f9f;
+    margin-top: 171px;
+    margin-bottom: 20px;
+}
+
+.features__title {
+    font-family: "Quicksand-Medium", sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    color: #3d4f9f;
+    margin-bottom: 92px;
+}
+
+.features__wrapper {
+    min-width: 760px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.features__col {
+    padding: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.features__image {
+    margin-bottom: 33px;
+}
+
+.features__subtitle {
+    font-family: "OpenSans-Bold", sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 25px;
+    color: #4074f8;
+    text-align: center;
+}
+
+.features__text {
+    font-family: "OpenSans-SemiBold", sans-serif;
+    font-size: 11px;
+    line-height: 19px;
+    color: #adb3cb;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.features__col-wrapper {
+    max-width: 140px;
+    padding: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 92px;
+}
+
+.features__col-wrapper::after {
+    content: "";
+    background-image: url(./../images/features/line-big.png);
+    width: 28px;
+    height: 1px;
+    position: absolute;
+    top: 125px;
+    right: -39px;
+}
+
+.features__col-wrapper::after:last-child::after {
+    display: none;
+}
+
+.stats {
+    border-top: 1px solid #d8e3fe;
+}
+
+.stats__block-left {
+    background: linear-gradient(229.32deg, #6888FF 12.77%, #5E80FF 73.11%);
+    padding-top: 66px;
+    padding-right: 90px;
+    padding-bottom: 66px;
+}
+
+.stats__block-left-percent {
+    font-family: "Quicksand-Regular", sans-serif;
+    font-size: 48px;
+    line-height: 83px;
+    letter-spacing: 0.03em;
+    margin-top: 24px;
+}
+
+.stats__block-left-text {
+    max-width: 260px;
+    height: 45px;
+    font-family: "Quicksand-Medium", sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.03em;
+}
+
+.stats__block-right {
+    background: linear-gradient(101.48deg, #E9EFFF 41.56%, #E0E9FF 81.53%);
+    padding-top: 70px;
+    padding-left: 90px;
+    padding-bottom: 66px;
+}
+
+.stats__block-right-number {
+    color: #5E80FF;
+    font-family: "Quicksand-Regular", sans-serif;
+    font-size: 48px;
+    line-height: 83px;
+    letter-spacing: 0.03em;
+    margin-top: 14px;
+}
+
+.stats__block-right-text {
+    color: #5E80FF;
+    max-width: 260px;
+    height: 45px;
+    font-family: "Quicksand-Medium", sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.03em;
+}
+
 .get-started {
     background: url(./../images/get-started/bg-clouds.png), linear-gradient(229.32deg, #6888ff 12.77%, #5e80ff 73.11%);
     background-repeat: no-repeat, no-repeat;
@@ -460,52 +603,4 @@ template {
     box-shadow: 0px 5px 15px 0px #6480e8;
     font-family: "Quicksand-Bold", sans-serif;
     font-size: 13px;
-}
-
-.stats {
-    height: 342px;
-    border-top: 1px solid #d8e3fe;
-}
-
-.stats__block-left {
-    background: linear-gradient(229.32deg, #6888FF 12.77%, #5E80FF 73.11%);
-    padding-top: 66px;
-    padding-right: 90px;
-    padding-bottom: 66px;
-}
-
-.stats__block-left-percent {
-    font-family: "Quicksand-Regular";
-    font-size: 48px;
-    line-height: 83px;
-    letter-spacing: 0.03em;
-    margin-top: 24px;
-}
-
-.stats__block-left-text {
-    width: 260px;
-    height: 45px;
-    font-family: "Quicksand-Medium";
-    font-size: 18px;
-    line-height: 23px;
-    letter-spacing: 0.03em;
-}
-
-.stats__block-right {
-    background: linear-gradient(101.48deg, #E9EFFF 41.56%, #E0E9FF 81.53%);
-    padding-top: 66px;
-    padding-left: 90px;
-    padding-bottom: 66px;
-}
-
-.stats__block-right-number {
-    color: #5E80FF;
-    font-family: "Quicksand-Regular";
-    font-size: 48px;
-    line-height: 83px;
-    letter-spacing: 0.03em;
-}
-
-.stats__block-right-text {
-    color: #5E80FF;
 }

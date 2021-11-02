@@ -1,14 +1,6 @@
 @import "./base/normalize";
 
 
-// body {
-//     min-width: 320px;
-// }
-
-
-//@import "./common/container";
-
-
 //@import "./abstracts/variables";
 //@import "./abstracts/mixins";
 
@@ -22,8 +14,9 @@
 
 
 //@import "./layout/header";
-@import "./layout/get-started";
+@import "./layout/features";
 @import "./layout/stats";
+@import "./layout/get-started";
 //@import "./layout/footer";
 
 
