@@ -1,0 +1,13 @@
+.stats {
+    height: 342px;
+    border: 1px solid rgba(216, 227, 254, 1);
+
+    &__block-left {
+        background: linear-gradient(229.32deg, #6888FF 12.77%, #5E80FF 73.11%);
+    }
+
+    &__block-right {
+        background: linear-gradient(101.48deg, #E9EFFF 41.56%, #E0E9FF 81.53%);
+    }
+
+}

@@ -1,47 +1,47 @@
 @font-face {
     font-family: "OpenSans-Bold";
-    src: url("/assets/fonts/woff2/OpenSans-Bold.woff2") format("woff2");
-  }
+    src: url("./../fonts/OpenSans-Bold.ttf") format("truetype");
+}
 
-  @font-face {
+@font-face {
     font-family: "OpenSans-SemiBold";
-    src: url("/assets/fonts/woff2/OpenSans-SemiBold.woff2") format("woff2");
-  }
+    src: url("./../fonts/OpenSans-SemiBold.ttf") format("truetype");
+}
 
-  @font-face {
+@font-face {
     font-family: "Quicksand-Bold";
-    src: url("/assets/fonts/woff2/Quicksand-Bold.woff2") format("woff2");
-  }
+    src: url("./../fonts/Quicksand-Bold.ttf") format("truetype");
+}
 
-  @font-face {
+@font-face {
     font-family: "Quicksand-Medium";
-    src: url("/assets/fonts/woff2/Quicksand-Medium.woff2") format("woff2");
-  }
+    src: url("./../fonts/Quicksand-Medium.ttf") format("truetype");
+}
 
-  @font-face {
+@font-face {
     font-family: "Quicksand-Regular";
-    src: url("/assets/fonts/woff2/Quicksand-Regular.woff2") format("woff2");
-  }
+    src: url("./../fonts/Quicksand-Regular.ttf") format("truetype");
+}
 
-  @font-face {
+@font-face {
     font-family: "Quicksand-Light";
-    src: url("./../assets/fonts/woff2/Quicksand-Light.woff2") format("woff2");
-  }
+    src: url("./../fonts/Quicksand-Light.ttf") format("truetype");
+}
 
-  @font-face {
+@font-face {
     font-family: "Roboto-Medium";
-    src: url("/assets/fonts/woff2/Roboto-Medium.woff2") format("woff2");
-  }
+    src: url("./../fonts/Roboto-Medium.ttf") format("truetype");
+}
 
-  @font-face {
+@font-face {
     font-family: "Roboto-Regular";
-    src: url("/assets/fonts/woff2/Roboto-Regular.woff2") format("woff2");
-  }
+    src: url("./../fonts/Roboto-Regular.ttf") format("truetype");
+}
 
 
   // Готический шрифт Schwabacher (для проверки подключения шрифтов в проекте).
 
-  @font-face {
+@font-face {
     font-family: "Schwabacher";
-    src: url("/assets/fonts/gothic/Schwabacher.woff2") format("woff2");
-  }
+    src: url("./../fonts/gothic/Schwabacher.woff2") format("woff2");
+}
