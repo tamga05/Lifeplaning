@@ -410,12 +410,6 @@ template {
 
 .features__container {
     max-width: 790px;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -ms-flex-align: center;
-    align-items: center;
 }
 
 @media screen and (max-width: 576px) {
@@ -498,14 +492,31 @@ template {
     display: none;
 }
 
+.features__btn-col {
+    max-width: 337px;
+}
+
 .features__btn-block {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: justify;
     justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
     max-width: 337px;
     height: 43px;
     margin-bottom: 168px;
+}
+
+@media screen and (max-width: 383px) {
+    .features__btn-block {
+        -ms-flex-pack: center;
+        justify-content: center;
+        row-gap: 10px;
+        -webkit-column-gap: 10px;
+        -moz-column-gap: 10px;
+        column-gap: 10px;
+    }
 }
 
 .features__btn-left {
@@ -526,6 +537,8 @@ template {
 }
 
 .features__btn-span {
+    width: 111px;
+    height: 43px;
     color: #ADB3CB;
     font-family: "OpenSans-SemiBold";
     font-size: 11px;
@@ -536,6 +549,34 @@ template {
     justify-content: center;
     -ms-flex-align: center;
     align-items: center;
+    position: relative;
+}
+
+@media screen and (max-width: 383px) {
+    .features__btn-span {
+        border: 1px solid #FFD7D7;
+        border-radius: 2px;
+    }
+}
+
+.features__btn-span::before {
+    content: "";
+    background-image: url(./../images/features/line-small.png);
+    width: 15px;
+    height: 1px;
+    position: absolute;
+    top: 21px;
+    left: 16px;
+}
+
+.features__btn-span:after {
+    content: "";
+    background-image: url(./../images/features/line-small.png);
+    width: 15px;
+    height: 1px;
+    position: absolute;
+    top: 21px;
+    right: 16px;
 }
 
 .features__btn-right {
