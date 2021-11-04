@@ -525,7 +525,7 @@ template {
     border-radius: 2px;
     color: #D43F3F;
     background: #FFD7D7;
-    font-family: "Quicksand-Bold";
+    font-family: "Quicksand-Bold", sans-serif;
     font-size: 13px;
     line-height: 16px;
     display: -ms-flexbox;
@@ -540,7 +540,7 @@ template {
     width: 111px;
     height: 43px;
     color: #ADB3CB;
-    font-family: "OpenSans-SemiBold";
+    font-family: "OpenSans-SemiBold", sans-serif;
     font-size: 11px;
     line-height: 19px;
     display: -ms-flexbox;
@@ -585,7 +585,7 @@ template {
     border-radius: 2px;
     color: #3A79FF;
     background: #D2E1FF;
-    font-family: "Quicksand-Bold";
+    font-family: "Quicksand-Bold", sans-serif;
     font-size: 13px;
     line-height: 16px;
     display: -ms-flexbox;

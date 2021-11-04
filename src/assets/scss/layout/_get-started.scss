@@ -8,6 +8,7 @@
         font-family: "Roboto-Medium", sans-serif;
         font-size: 10px;
         line-height: 12px;
+        font-weight: 500;
         letter-spacing: 0.1em;
         margin-top: 91px;
     }
@@ -16,6 +17,7 @@
         font-family: "Quicksand-Light", sans-serif;
         font-size: 48px;
         line-height: 60px;
+        font-weight: 300;
         margin-bottom: 28px;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
@@ -24,6 +26,7 @@
         font-family: "Quicksand-Medium", sans-serif;
         font-size: 48px;
         line-height: 60px;
+        font-weight: 500;
     }
 
     &__text {
@@ -33,32 +36,30 @@
         line-height: 29px;
         letter-spacing: 0.03em;
     }
-}
 
-.btn-group {
-    margin-top: 28px;
-    margin-bottom: 91px;
-
-    &__right {
-        width: 160px;
-        height: 43px;
-        color: #c7d3ff;
-        border-color: #a0b4ff;
-        font-family: "Quicksand-Medium", sans-serif;
-        font-size: 13px;
-        //border-top-left-radius: 0;
-        //border-bottom-left-radius: 0;
-    }
-
-    &__left {
+    &__btn-left {
         width: 130px;
         height: 43px;
         color: #565f82;
         background-color: #ffffff;
         box-shadow: 0px 5px 15px 0px #6480e8;
         font-family: "Quicksand-Bold", sans-serif;
+        font-weight: 700;
         font-size: 13px;
-        //border-top-right-radius: 0;
-        //border-bottom-right-radius: 0;
     }
+
+    &__btn-right {
+        width: 160px;
+        height: 43px;
+        color: #c7d3ff;
+        border-color: #a0b4ff;
+        font-family: "Quicksand-Medium", sans-serif;
+        font-weight: 500;
+        font-size: 13px;
+    }
+}
+
+.btn-group {
+    margin-top: 28px;
+    margin-bottom: 91px;
 }
