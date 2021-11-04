@@ -1,0 +1,18 @@
+.customers {
+    border-top: 1px solid #D8E3FE;
+    border-bottom: 1px solid #D8E3FE;
+
+    &__container {
+        max-width: 946px;
+        padding: 58px 15px;
+    }
+
+    &__row {
+        column-gap: 20px;
+        row-gap: 30px;
+
+        @media screen and (max-width: 694px) {
+            justify-content: center!important;
+        }
+    }
+}

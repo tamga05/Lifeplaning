@@ -356,6 +356,19 @@ template {
   font-family: "Schwabacher";
   src: url("./../fonts/gothic/Schwabacher.woff2") format("woff2"); }
 
+.customers {
+  border-top: 1px solid #D8E3FE;
+  border-bottom: 1px solid #D8E3FE; }
+  .customers__container {
+    max-width: 946px;
+    padding: 58px 15px; }
+  .customers__row {
+    column-gap: 20px;
+    row-gap: 30px; }
+    @media screen and (max-width: 694px) {
+      .customers__row {
+        justify-content: center !important; } }
+
 .features {
   background: url(./../images/features/bg-clouds.png);
   background-repeat: no-repeat;
@@ -495,7 +508,7 @@ template {
     align-items: center; }
 
 .stats {
-  border-top: 1px solid #d8e3fe; }
+  border-top: 1px solid #D8E3FE; }
   .stats__block-left {
     background: linear-gradient(229.32deg, #6888FF 12.77%, #5E80FF 73.11%);
     padding-top: 66px;
@@ -566,8 +579,7 @@ template {
 .get-started {
   background: url(./../images/get-started/bg-clouds.png), linear-gradient(229.32deg, #6888ff 12.77%, #5e80ff 73.11%);
   background-repeat: no-repeat, no-repeat;
-  background-position: center, center;
-  border-color: #d8e3fe; }
+  background-position: center, center; }
   .get-started__subtitle {
     font-family: "Roboto-Medium", sans-serif;
     font-weight: 500;
