@@ -639,4 +639,7 @@ template {
       flex-wrap: wrap;
       row-gap: 10px; } }
 
+.newsletter.features__container {
+  max-width: 887px; }
+
 /*# sourceMappingURL=style.min.css.map */

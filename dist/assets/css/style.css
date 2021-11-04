@@ -412,18 +412,16 @@ template {
 }
 
 .customers__row {
-    -webkit-column-gap: 15px;
-    -moz-column-gap: 15px;
-    column-gap: 15px;
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
     row-gap: 30px;
 }
 
-@media screen and (max-width: 506px) {
+@media screen and (max-width: 694px) {
     .customers__row {
-        -ms-flex-direction: column !important;
-        flex-direction: column !important;
-        -ms-flex-align: center;
-        align-items: center;
+        -ms-flex-pack: center !important;
+        justify-content: center !important;
     }
 }
 
