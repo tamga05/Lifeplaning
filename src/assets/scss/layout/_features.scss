@@ -19,6 +19,7 @@
 
     &__about {
         font-family: "Roboto-Medium", sans-serif;
+        font-weight: 500;
         font-size: 10px;
         line-height: 12px;
         letter-spacing: 0.1em;
@@ -29,6 +30,7 @@
 
     &__title {
         font-family: "Quicksand-Medium", sans-serif;
+        font-weight: 500;
         font-size: 24px;
         line-height: 30px;
         color: #3d4f9f;
@@ -41,6 +43,7 @@
 
     &__subtitle {
         font-family: "OpenSans-Bold", sans-serif;
+        font-weight: 700;
         font-size: 14px;
         line-height: 25px;
         margin-bottom: 25px;
@@ -50,6 +53,7 @@
 
     &__text {
         font-family: "OpenSans-SemiBold", sans-serif;
+        font-weight: 600;
         font-size: 11px;
         line-height: 19px;
         color: #adb3cb;
@@ -111,6 +115,7 @@
         color: #D43F3F;
         background: #FFD7D7;
         font-family: "Quicksand-Bold", sans-serif;
+        font-weight: 700;
         font-size: 13px;
         line-height: 16px;
         display: flex;
@@ -123,6 +128,7 @@
         height: 43px;
         color: #ADB3CB;
         font-family: "OpenSans-SemiBold", sans-serif;
+        font-weight: 600;
         font-size: 11px;
         line-height: 19px;
         display: flex;
@@ -163,6 +169,7 @@
         color: #3A79FF;
         background: #D2E1FF;
         font-family: "Quicksand-Bold", sans-serif;
+        font-weight: 700;
         font-size: 13px;
         line-height: 16px;
         display: flex;
