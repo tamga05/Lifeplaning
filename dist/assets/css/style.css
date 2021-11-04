@@ -819,3 +819,13 @@ template {
         row-gap: 10px;
     }
 }
+
+.newsletter {
+    border-top: 1px solid #D8E3FE;
+}
+
+.newsletter__container {
+    max-width: 917px;
+    padding-top: 123px;
+    padding-bottom: 114px;
+}

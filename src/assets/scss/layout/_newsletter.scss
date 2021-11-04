@@ -1,6 +1,9 @@
 .newsletter {
+    border-top: 1px solid #D8E3FE;
 
-    &.features__container {
-        max-width: 887px;
+    &__container {
+        max-width: 917px;
+        padding-top: 123px;
+        padding-bottom: 114px;
     }
 }
