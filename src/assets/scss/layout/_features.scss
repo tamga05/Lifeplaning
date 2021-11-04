@@ -7,6 +7,10 @@
 
     &__container {
         max-width: 790px;
+        //display: flex;
+        //flex-direction: column;
+        //align-items: center;
+        //justify-content: center;
     }
 
 // !     Important
@@ -85,13 +89,17 @@
         display: none;
     }
 
-    &__btn-group {
+    &__btn-block {
         display: flex;
         justify-content: space-between;
-        align-items: center;
         max-width: 337px;
         height: 43px;
         margin-bottom: 168px;
+
+    }
+
+    &__btn-row {
+        
     }
 
     &__btn-left {
