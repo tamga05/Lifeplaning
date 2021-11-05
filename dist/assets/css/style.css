@@ -822,6 +822,7 @@ template {
 
 .newsletter {
     border-top: 1px solid #D8E3FE;
+    background-color: #FCFDFF;
 }
 
 .newsletter__container {
