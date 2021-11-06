@@ -425,7 +425,55 @@ template {
     }
 }
 
+.plan-manage {
+    background-color: #F5F8FF;
+    padding-top: 170px;
+    padding-bottom: 170px;
+}
+
+.plan-manage__container {
+    max-width: 1368px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 1px solid red;
+}
+
+.plan-manage__content-block {
+    max-width: 413px;
+    border: 1px solid red;
+}
+
+.plan-manage__image-block {
+    max-width: 653px;
+    height: 436px;
+    border: 1px solid red;
+}
+
+.plan-manage__image-big {
+    width: 606px;
+    height: 349px;
+}
+
+.plan-manage__image-right {
+    width: 148px;
+    height: 280px;
+    bottom: -105px;
+    right: -15px;
+}
+
+.plan-manage__image-left {
+    width: 107px;
+    height: 214px;
+    top: 80px;
+    left: -42px;
+}
+
 .features {
+    border-top: 1px solid #E4E6F0;
     background: url(./../images/features/bg-clouds.png);
     background-repeat: no-repeat;
     background-position-x: calc(50% + 6px);
