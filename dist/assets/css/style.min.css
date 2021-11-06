@@ -646,11 +646,75 @@ template {
     max-width: 917px;
     padding-top: 118px;
     padding-bottom: 119px; }
-  .newsletter__col-form {
-    max-width: 477px;
-    height: 59px; }
+  @media screen and (max-width: 822px) {
+    .newsletter__row {
+      flex-direction: column;
+      align-items: center;
+      row-gap: 15px; } }
   .newsletter__col-content {
-    max-width: 330px;
-    height: 95px; }
+    max-width: 330px; }
+  .newsletter__title {
+    font-family: "Quicksand-Bold", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #3D4F9F;
+    margin-bottom: 18px; }
+    @media screen and (max-width: 822px) {
+      .newsletter__title {
+        text-align: center; } }
+  .newsletter__text {
+    font-family: "Roboto-Regular", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #8D96BD;
+    line-height: 27px;
+    letter-spacing: 0.03em; }
+    @media screen and (max-width: 822px) {
+      .newsletter__text {
+        text-align: center; } }
+  .newsletter__col-form {
+    max-width: 477px; }
+  .newsletter__form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 10px; }
+    @media screen and (max-width: 492px) {
+      .newsletter__form {
+        justify-content: center;
+        placeholder: "Email"; } }
+  .newsletter__input {
+    max-width: 279px;
+    height: 59px;
+    border: none;
+    border-radius: 5px;
+    background: #EFEFF7;
+    font-family: "Quicksand-Bold", sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    color: #7A85AD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 0 23px; }
+  .newsletter__submit-btn {
+    width: 184px;
+    height: 59px;
+    border: none;
+    border-radius: 5px;
+    background: #4D6CE1;
+    opacity: 0.84;
+    box-shadow: 0px 5px 15px rgba(116, 104, 255, 0.2);
+    font-family: "Quicksand-Bold", sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0; }
 
 /*# sourceMappingURL=style.min.css.map */

@@ -251,22 +251,29 @@
 
     </section> -->
 
-    <section class="newsletter" >
+    <section class="newsletter">
 
         <div class="container newsletter__container">
 
-            <div class="row no-gutters flex-wrap">
+            <div class="row no-gutters justify-content-between align-items-center newsletter__row">
 
-                <div class="col-4 offset-1 newsletter__col-content">
-                    <h2 class="newsletter__title" >Sign up for newsletter</h2>
-                    <p class="newsletter__text">Cu qui soleat partiendo urbanitas. Eum aperiri indoctum eu, homero alterum.</p>
+                <div class="col newsletter__col-content">
+                    <h2 class="newsletter__title">Sign up for newsletter</h2>
+                    <p class="newsletter__text m-0">Cu qui soleat partiendo urbanitas. Eum aperiri indoctum eu, homero
+                        alterum.</p>
                 </div>
 
-                <div class="col-6 newsletter__col-form">
-                    <div class="row no-gutters newsletter__row-form">
-                        <div class="col newsletter__col-input"></div>
-                        <div class="col newsletter__col-submit"></div>
-                    </div>
+                <div class="col newsletter__col-form">
+
+                    <form class="newsletter__form" action="#" method="POST" target="blanc">
+
+                        <input class="form-control newsletter__input" type="email" placeholder="Email address" required
+                            aria-describedby="emailHelp">
+
+                        <button class="btn btn-primary newsletter__submit-btn" type="submit">Save me</button>
+
+                    </form>
+
                 </div>
 
             </div>
