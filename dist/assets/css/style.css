@@ -439,37 +439,37 @@ template {
     justify-content: flex-end;
     -ms-flex-align: center;
     align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
     border: 1px solid red;
 }
 
 .plan-manage__content-block {
     max-width: 413px;
+    width: 100%;
+    margin-right: 61px;
     border: 1px solid red;
 }
 
 .plan-manage__image-block {
     max-width: 653px;
-    height: 436px;
+    width: 100%;
     border: 1px solid red;
 }
 
 .plan-manage__image-big {
-    width: 606px;
-    height: 349px;
+    max-width: 606px;
+    width: 100%;
 }
 
 .plan-manage__image-right {
-    width: 148px;
-    height: 280px;
-    bottom: -105px;
-    right: -15px;
+    max-width: 148px;
+    width: 100%;
 }
 
 .plan-manage__image-left {
-    width: 107px;
-    height: 214px;
-    top: 80px;
-    left: -42px;
+    max-width: 107px;
+    width: 100%;
 }
 
 .features {
