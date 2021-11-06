@@ -869,12 +869,14 @@ template {
     letter-spacing: 0.03em;
 }
 
+@media screen and (max-width: 822px) {
+    .newsletter__text {
+        text-align: center;
+    }
+}
+
 .newsletter__col-form {
     max-width: 477px;
-    -webkit-column-gap: 10px;
-    -moz-column-gap: 10px;
-    column-gap: 10px;
-    row-gap: 10px;
 }
 
 .newsletter__form {
@@ -884,6 +886,14 @@ template {
     justify-content: space-between;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    row-gap: 10px;
+}
+
+@media screen and (max-width: 492px) {
+    .newsletter__form {
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
 }
 
 .newsletter__input {

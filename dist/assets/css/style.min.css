@@ -682,8 +682,7 @@ template {
     row-gap: 10px; }
     @media screen and (max-width: 492px) {
       .newsletter__form {
-        justify-content: center;
-        placeholder: "Email"; } }
+        justify-content: center; } }
   .newsletter__input {
     max-width: 279px;
     height: 59px;
