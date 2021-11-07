@@ -455,13 +455,13 @@ template {
 
 .plan-manage__content-block {
     max-width: 413px;
-    width: 100%;
     margin-right: 61px;
 }
 
 @media screen and (max-width: 1158px) {
     .plan-manage__content-block {
         margin-right: 0;
+        margin-bottom: 50px;
     }
 }
 
@@ -503,15 +503,21 @@ template {
     margin-bottom: 47px;
 }
 
+.plan-manage__btn-group {
+    margin: 0 !important;
+}
+
 @media screen and (max-width: 370px) {
     .plan-manage__btn-group {
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
         row-gap: 10px;
+        margin-bottom: 0;
     }
 }
 
 .plan-manage__btn-left {
+    padding: 0;
     width: 130px;
     height: 43px;
     border: none;
@@ -551,17 +557,12 @@ template {
 
 @media screen and (max-width: 370px) {
     .plan-manage__btn-left::after {
-        right: 40px;
-    }
-}
-
-@media screen and (max-width: 275px) {
-    .plan-manage__btn-left::after {
         display: none;
     }
 }
 
 .plan-manage__btn-right {
+    padding: 0;
     width: 130px;
     height: 43px;
     border: 1px solid #D1D1E4;
@@ -588,23 +589,29 @@ template {
 
 .plan-manage__image-block {
     max-width: 653px;
+    height: 436px;
     width: 100%;
-    border: 1px solid red;
 }
 
 .plan-manage__image-big {
     max-width: 606px;
     width: 100%;
+    top: -20px;
+    right: -50px;
 }
 
 .plan-manage__image-right {
     max-width: 148px;
     width: 100%;
+    bottom: -105px;
+    right: -15px;
 }
 
 .plan-manage__image-left {
     max-width: 107px;
     width: 100%;
+    top: 80px;
+    left: -45px;
 }
 
 .features {
