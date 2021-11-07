@@ -444,11 +444,146 @@ template {
     border: 1px solid red;
 }
 
+@media screen and (max-width: 1158px) {
+    .plan-manage__container {
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+}
+
 .plan-manage__content-block {
     max-width: 413px;
     width: 100%;
     margin-right: 61px;
-    border: 1px solid red;
+}
+
+@media screen and (max-width: 1158px) {
+    .plan-manage__content-block {
+        margin-right: 0;
+    }
+}
+
+.plan-manage__subtitle {
+    font-family: "Roboto-Medium", sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.1em;
+    color: #3D4F9F;
+    margin-bottom: 27px;
+}
+
+.plan-manage__title {
+    font-family: "Quicksand-Medium", sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 45px;
+    color: #3D4F9F;
+    margin-bottom: 27px;
+}
+
+.plan-manage__span {
+    font-family: "Quicksand-Regular", sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 45px;
+    color: #3D4F9F;
+    margin-bottom: 27px;
+}
+
+.plan-manage__text {
+    font-family: "Roboto-Regular", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 29px;
+    letter-spacing: 0.03em;
+    color: #8D96BD;
+    margin-bottom: 47px;
+}
+
+@media screen and (max-width: 370px) {
+    .plan-manage__btn-group {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        row-gap: 10px;
+    }
+}
+
+.plan-manage__btn-left {
+    width: 130px;
+    height: 43px;
+    border: none;
+    border-radius: 2px;
+    background-color: #4C85FF;
+    font-family: "Quicksand-Bold", sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    box-shadow: 0px 5px 15px 0px #BCC7FFBF;
+    position: relative;
+}
+
+@media screen and (max-width: 370px) {
+    .plan-manage__btn-left {
+        border-radius: 2px !important;
+        box-shadow: none;
+    }
+}
+
+.plan-manage__btn-left::after {
+    content: "";
+    background-image: url(./../images/plan-manage/polygon.svg);
+    width: 7px;
+    height: 8px;
+    position: absolute;
+    top: 19px;
+    right: 17px;
+}
+
+@media screen and (max-width: 370px) {
+    .plan-manage__btn-left::after {
+        right: 40px;
+    }
+}
+
+@media screen and (max-width: 275px) {
+    .plan-manage__btn-left::after {
+        display: none;
+    }
+}
+
+.plan-manage__btn-right {
+    width: 130px;
+    height: 43px;
+    border: 1px solid #D1D1E4;
+    border-radius: 2px;
+    background-color: #F5F8FF;
+    font-family: "Quicksand-Medium", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #ADB4D2;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 370px) {
+    .plan-manage__btn-right {
+        border-radius: 2px !important;
+    }
 }
 
 .plan-manage__image-block {
@@ -830,6 +965,7 @@ template {
     font-family: "Quicksand-Bold", sans-serif;
     font-weight: 700;
     font-size: 13px;
+    line-height: 16px;
 }
 
 @media screen and (max-width: 315px) {
@@ -846,6 +982,7 @@ template {
     font-family: "Quicksand-Medium", sans-serif;
     font-weight: 500;
     font-size: 13px;
+    line-height: 16px;
 }
 
 @media screen and (max-width: 315px) {
