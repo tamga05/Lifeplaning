@@ -480,26 +480,10 @@ template {
         border-radius: 2px !important; } }
   .plan-manage__image-block {
     max-width: 653px;
-    height: 436px;
-    width: 100%; }
-  .plan-manage__image-big {
-    max-width: 606px;
+    height: 436px; }
+  .plan-manage__image {
     width: 100%;
-    object-fit: cover;
-    top: 0;
-    right: 0; }
-  .plan-manage__image-right {
-    max-width: 148px;
-    width: 100%;
-    object-fit: cover;
-    bottom: 0;
-    right: 0; }
-  .plan-manage__image-left {
-    max-width: 107px;
-    width: 100%;
-    object-fit: cover;
-    top: 0;
-    left: 0; }
+    object-fit: cover; }
 
 .features {
   border-top: 1px solid #E4E6F0;
@@ -708,6 +692,12 @@ template {
     @media screen and (max-width: 285px) {
       .stats__block-right-text {
         font-size: 14px; } }
+
+.faq {
+  padding-top: 176px;
+  padding-bottom: 174px; }
+  .faq__container {
+    max-width: 730px; }
 
 .get-started {
   background: url(./../images/get-started/bg-clouds.png), linear-gradient(229.32deg, #6888ff 12.77%, #5e80ff 73.11%);

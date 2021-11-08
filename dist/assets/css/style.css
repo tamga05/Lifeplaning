@@ -590,28 +590,11 @@ template {
 .plan-manage__image-block {
     max-width: 653px;
     height: 436px;
-    width: 100%;
 }
 
-.plan-manage__image-big {
-    max-width: 606px;
+.plan-manage__image {
     width: 100%;
-    top: -20px;
-    right: -50px;
-}
-
-.plan-manage__image-right {
-    max-width: 148px;
-    width: 100%;
-    bottom: -105px;
-    right: -15px;
-}
-
-.plan-manage__image-left {
-    max-width: 107px;
-    width: 100%;
-    top: 80px;
-    left: -45px;
+    height: auto;
 }
 
 .features {
