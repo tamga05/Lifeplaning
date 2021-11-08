@@ -441,7 +441,6 @@ template {
     align-items: center;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    border: 1px solid red;
 }
 
 @media screen and (max-width: 1158px) {
@@ -589,10 +588,10 @@ template {
 
 .plan-manage__image-block {
     max-width: 653px;
-    height: 436px;
 }
 
 .plan-manage__image {
+    max-width: 653px;
     width: 100%;
     -o-object-fit: cover;
     object-fit: cover;

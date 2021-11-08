@@ -712,21 +712,22 @@ template {
     line-height: 30px;
     color: #3D4F9F;
     margin-bottom: 68px; }
-  .faq__btn, .faq__btn-link {
-    font-family: "Quicksand-Medium", sans-serif;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 19px;
-    letter-spacing: 0.03em;
-    color: #8E96B7;
-    display: flex;
-    align-items: center; }
 
 .btn-link.focus, .btn-link:focus {
   text-decoration: none; }
 
 .btn-link:hover {
   text-decoration: none; }
+
+.btn, .btn-link {
+  font-family: "Quicksand-Medium", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #8E96B7;
+  display: flex;
+  align-items: center; }
 
 .get-started {
   background: url(./../images/get-started/bg-clouds.png), linear-gradient(229.32deg, #6888ff 12.77%, #5e80ff 73.11%);
