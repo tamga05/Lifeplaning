@@ -594,7 +594,8 @@ template {
 
 .plan-manage__image {
     width: 100%;
-    height: auto;
+    -o-object-fit: cover;
+    object-fit: cover;
 }
 
 .features {
@@ -904,6 +905,55 @@ template {
     .stats__block-right-text {
         font-size: 14px;
     }
+}
+
+.faq {
+    padding-top: 176px;
+    padding-bottom: 174px;
+}
+
+.faq__container {
+    max-width: 730px;
+}
+
+.faq__subtitle {
+    font-family: "Roboto-Medium", sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.1em;
+    color: #3D4F9F;
+    margin-bottom: 20px;
+}
+
+.faq__title {
+    font-family: "Quicksand-Medium", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: #3D4F9F;
+    margin-bottom: 68px;
+}
+
+.faq__btn, .faq__btn-link {
+    font-family: "Quicksand-Medium", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #8E96B7;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.btn-link.focus, .btn-link:focus {
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    text-decoration: none;
 }
 
 .get-started {

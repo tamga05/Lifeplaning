@@ -378,8 +378,7 @@ template {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    flex-wrap: wrap;
-    border: 1px solid red; }
+    flex-wrap: wrap; }
     @media screen and (max-width: 1158px) {
       .plan-manage__container {
         flex-direction: column;
@@ -479,9 +478,9 @@ template {
       .plan-manage__btn-right {
         border-radius: 2px !important; } }
   .plan-manage__image-block {
-    max-width: 653px;
-    height: 436px; }
+    max-width: 653px; }
   .plan-manage__image {
+    max-width: 653px;
     width: 100%;
     object-fit: cover; }
 
@@ -698,6 +697,36 @@ template {
   padding-bottom: 174px; }
   .faq__container {
     max-width: 730px; }
+  .faq__subtitle {
+    font-family: "Roboto-Medium", sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.1em;
+    color: #3D4F9F;
+    margin-bottom: 20px; }
+  .faq__title {
+    font-family: "Quicksand-Medium", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: #3D4F9F;
+    margin-bottom: 68px; }
+  .faq__btn, .faq__btn-link {
+    font-family: "Quicksand-Medium", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #8E96B7;
+    display: flex;
+    align-items: center; }
+
+.btn-link.focus, .btn-link:focus {
+  text-decoration: none; }
+
+.btn-link:hover {
+  text-decoration: none; }
 
 .get-started {
   background: url(./../images/get-started/bg-clouds.png), linear-gradient(229.32deg, #6888ff 12.77%, #5e80ff 73.11%);
