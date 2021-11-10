@@ -3,7 +3,7 @@
     padding-bottom: 174px;
 
     &__container {
-        max-width: 730px;
+        max-width: 760px;
     }
 
     &__subtitle {
@@ -25,16 +25,106 @@
         margin-bottom: 68px;
     }
 
+    &__card {
+        max-width: 730px;
+        border: transparent;
+        border-bottom: 1px solid #D8E3FE!important;
+        border-radius: 0;
+        padding: 0 0 15px 17px;
+        margin-bottom: 17px;
+
+        @media screen and (max-width: 705px) {
+            padding-left: 0;
+        }
+    }
+
+    &__card:last-of-type {
+        margin-bottom: 0;
+    }
+
+    &__card-header {
+        max-width: 540px;
+        height: 45px;
+        background: #FFFFFF;
+        border: transparent!important;
+        padding: 0;
+        padding-left: 38px;
+        display: flex;
+        align-items: center;
+
+        @media screen and (max-width: 705px) {
+            padding: 0;
+            justify-content: center;
+            max-width: 100%;
+        }
+    }
+
+    &__card-body {
+        max-width: 391px;
+        font-family: "Roboto-Regular", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 27px;
+        letter-spacing: 0.03em;
+        color: #8D96BD;
+        padding: 0;
+        margin-right: 62px;
+
+        @media screen and (max-width: 705px) {
+            margin-right: 0;
+            text-align: center;
+        }
+    }
+
+    &__card-button {
+        width: 195px;
+        height: 43px;
+        border: transparent;
+        border-radius: 2px;
+        background: #E8ECF4;
+        font-family: "Quicksand-Medium", sans-serif;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #7382A3;
+        padding: 0;
+        margin-right: 9px;
+
+        @media screen and (max-width: 705px) {
+            margin-right: 0;
+        }
+    }
+
     &__btn, &__btn-link {
         font-family: "Quicksand-Medium", sans-serif;
         font-weight: 500;
         font-size: 15px;
-        line-height: 19px;
+        line-height: 20px;
         letter-spacing: 0.03em;
         color: #8E96B7;
+        padding: 0;
         display: flex;
         align-items: center;
     }
+
+    &__collapse {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        flex-wrap: wrap;
+        row-gap: 15px;
+
+        @media screen and(max-width: 705px) {
+            flex-direction: column;
+            align-items: center;
+
+        }
+    }
+
+
 
 }
 
