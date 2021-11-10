@@ -99,28 +99,34 @@
     }
 
     &__btn, &__btn-link {
-        font-family: "Quicksand-Medium", sans-serif;
-        font-weight: 500;
+        font-family: "Quicksand-Bold", sans-serif;
+        font-weight: 700;
         font-size: 15px;
         line-height: 20px;
         letter-spacing: 0.03em;
-        color: #8E96B7;
+        color: #495274;
         padding: 0;
         display: flex;
         align-items: center;
+    }
+
+    &__btn.collapsed {
+        font-family: "Quicksand-Medium", sans-serif;
+        font-weight: 500;
+        color: #8E96B7;
     }
 
     &__collapse {
         display: flex;
         justify-content: end;
         align-items: center;
-        flex-wrap: wrap;
+        //flex-wrap: wrap;
         row-gap: 15px;
+        transition: 0.05s;
 
         @media screen and(max-width: 705px) {
             flex-direction: column;
-            align-items: center;
-
+            //align-items: center;
         }
     }
 
