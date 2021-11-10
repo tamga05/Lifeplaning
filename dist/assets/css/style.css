@@ -1011,17 +1011,66 @@ template {
 }
 
 .faq__btn, .faq__btn-link {
-    font-family: "Quicksand-Medium", sans-serif;
-    font-weight: 500;
+    font-family: "Quicksand-Bold", sans-serif;
+    font-weight: 700;
     font-size: 15px;
     line-height: 20px;
     letter-spacing: 0.03em;
-    color: #8E96B7;
+    color: #495274;
     padding: 0;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-align: center;
     align-items: center;
+    position: relative;
+    outline: transparent !important;
+}
+
+.faq__btn::before, .faq__btn-link::before {
+    content: "";
+    background-image: url(./../images/faq/arrow-open.svg);
+    width: 18px;
+    height: 11px;
+    position: absolute;
+    top: 5px;
+    left: -38px;
+}
+
+@media screen and (max-width: 610px) {
+    .faq__btn::before, .faq__btn-link::before {
+        display: none;
+    }
+}
+
+.faq__btn-link.focus, .faq__btn-link:focus {
+    text-decoration: none;
+}
+
+.faq__btn-link:hover {
+    text-decoration: none;
+}
+
+.faq__btn.collapsed, .faq__btn-link.collapsed {
+    font-family: "Quicksand-Medium", sans-serif;
+    font-weight: 500;
+    color: #8E96B7;
+    position: relative;
+}
+
+.faq__btn.collapsed::before, .faq__btn-link.collapsed::before {
+    content: "";
+    background-image: url(./../images/faq/arrow-collapsed.svg);
+    width: 18px;
+    height: 11px;
+    position: absolute;
+    top: 5px;
+    left: -38px;
+}
+
+@media screen and (max-width: 610px) {
+    .faq__btn.collapsed::before, .faq__btn-link.collapsed::before {
+        display: none;
+    }
 }
 
 .faq__collapse {
@@ -1031,9 +1080,8 @@ template {
     justify-content: end;
     -ms-flex-align: center;
     align-items: center;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
     row-gap: 15px;
+    transition: 0.05s;
 }
 
 @media screen and (max-width: 705px) {
@@ -1043,14 +1091,6 @@ template {
         -ms-flex-align: center;
         align-items: center;
     }
-}
-
-.btn-link.focus, .btn-link:focus {
-    text-decoration: none;
-}
-
-.btn-link:hover {
-    text-decoration: none;
 }
 
 .get-started {

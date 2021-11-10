@@ -774,11 +774,45 @@ template {
     color: #495274;
     padding: 0;
     display: flex;
-    align-items: center; }
-  .faq__btn.collapsed {
+    align-items: center;
+    position: relative; }
+    @media screen and (max-width: 610px) {
+      .faq__btn, .faq__btn-link {
+        box-shadow: none !important; } }
+    .faq__btn::before, .faq__btn-link::before {
+      content: "";
+      background-image: url(./../images/faq/arrow-open.svg);
+      width: 18px;
+      height: 11px;
+      position: absolute;
+      top: 5px;
+      left: -38px; }
+      @media screen and (max-width: 610px) {
+        .faq__btn::before, .faq__btn-link::before {
+          display: none; } }
+  .faq__btn-link.focus, .faq__btn-link:focus {
+    text-decoration: none; }
+  .faq__btn-link:hover {
+    text-decoration: none; }
+  .faq__btn.collapsed, .faq__btn-link.collapsed {
     font-family: "Quicksand-Medium", sans-serif;
     font-weight: 500;
-    color: #8E96B7; }
+    color: #8E96B7;
+    position: relative; }
+    @media screen and (max-width: 610px) {
+      .faq__btn.collapsed, .faq__btn-link.collapsed {
+        box-shadow: none !important; } }
+    .faq__btn.collapsed::before, .faq__btn-link.collapsed::before {
+      content: "";
+      background-image: url(./../images/faq/arrow-collapsed.svg);
+      width: 18px;
+      height: 11px;
+      position: absolute;
+      top: 5px;
+      left: -38px; }
+      @media screen and (max-width: 610px) {
+        .faq__btn.collapsed::before, .faq__btn-link.collapsed::before {
+          display: none; } }
   .faq__collapse {
     display: flex;
     justify-content: end;
@@ -787,13 +821,8 @@ template {
     transition: 0.05s; }
     @media screen and (max-width: 705px) {
       .faq__collapse {
-        flex-direction: column; } }
-
-.btn-link.focus, .btn-link:focus {
-  text-decoration: none; }
-
-.btn-link:hover {
-  text-decoration: none; }
+        flex-direction: column;
+        align-items: center; } }
 
 .get-started {
   background: url(./../images/get-started/bg-clouds.png), linear-gradient(229.32deg, #6888ff 12.77%, #5e80ff 73.11%);

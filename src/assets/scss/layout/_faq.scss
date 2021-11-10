@@ -108,41 +108,71 @@
         padding: 0;
         display: flex;
         align-items: center;
+        position: relative;
+
+        @media screen and (max-width: 610px) {
+            box-shadow: none!important;
+        }
+
+        &::before {
+            content: "";
+            background-image: url(./../images/faq/arrow-open.svg);
+            width: 18px;
+            height: 11px;
+            position: absolute;
+            top: 5px;
+            left: -38px;
+
+            @media screen and (max-width: 610px) {
+                display: none;
+            }
+        }
     }
 
-    &__btn.collapsed {
+    &__btn-link.focus, &__btn-link:focus {
+        text-decoration: none;
+    }
+
+    &__btn-link:hover {
+        text-decoration: none;
+    }
+
+    &__btn.collapsed, &__btn-link.collapsed {
         font-family: "Quicksand-Medium", sans-serif;
         font-weight: 500;
         color: #8E96B7;
+        position: relative;
+
+        @media screen and (max-width: 610px) {
+            box-shadow: none!important;
+        }
+
+        &::before {
+            content: "";
+            background-image: url(./../images/faq/arrow-collapsed.svg);
+            width: 18px;
+            height: 11px;
+            position: absolute;
+            top: 5px;
+            left: -38px;
+
+            @media screen and (max-width: 610px) {
+                display: none;
+            }
+        }
     }
 
     &__collapse {
         display: flex;
         justify-content: end;
         align-items: center;
-        //flex-wrap: wrap;
         row-gap: 15px;
         transition: 0.05s;
 
         @media screen and(max-width: 705px) {
             flex-direction: column;
-            //align-items: center;
+            align-items: center;
         }
     }
-
-
-
-}
-
-.btn-link.focus, .btn-link:focus {
-    text-decoration: none;
-}
-
-.btn-link:hover {
-    text-decoration: none;
-}
-
-.btn, .btn-link {
-
 }
 
