@@ -686,6 +686,12 @@ template {
       .stats__block-right-text {
         font-size: 14px; } }
 
+.quotes {
+  padding-top: 109px;
+  padding-bottom: 108px; }
+  .quotes__container {
+    max-width: 888px; }
+
 .faq {
   padding-top: 176px;
   padding-bottom: 174px; }

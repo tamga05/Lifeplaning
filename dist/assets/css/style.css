@@ -1023,7 +1023,12 @@ template {
     -ms-flex-align: center;
     align-items: center;
     position: relative;
-    outline: transparent !important;
+}
+
+@media screen and (max-width: 610px) {
+    .faq__btn, .faq__btn-link {
+        box-shadow: none !important;
+    }
 }
 
 .faq__btn::before, .faq__btn-link::before {
@@ -1055,6 +1060,12 @@ template {
     font-weight: 500;
     color: #8E96B7;
     position: relative;
+}
+
+@media screen and (max-width: 610px) {
+    .faq__btn.collapsed, .faq__btn-link.collapsed {
+        box-shadow: none !important;
+    }
 }
 
 .faq__btn.collapsed::before, .faq__btn-link.collapsed::before {
