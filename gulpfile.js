@@ -5,7 +5,7 @@ const {src, dest} = require('gulp');
 const gulp = require('gulp');
 const sourcemaps = require('gulp-sourcemaps'); // благодаря ему в браузере видим не минифицированный код, а привычную разметку.
 const autoprefixer = require('gulp-autoprefixer'); // расставляет префиксы для поддержки свойств в разных браузерах.
-const cssbeautify = require('gulp-cssbeautify'); // форматирует css, чтобы он был легким для чтения.
+const cssbeautify = require('gulp-cssbeautify'); // форматирует css, чтобы он был лёгким для чтения.
 const removeComments = require('gulp-strip-css-comments'); // удаляет комментарии.
 const rename = require('gulp-rename'); // для переименования файлов.
 
