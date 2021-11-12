@@ -898,21 +898,18 @@ template {
 .quotes {
     padding-top: 109px;
     padding-bottom: 108px;
-<<<<<<< HEAD
     background: linear-gradient(180deg, #EAF0FF 0%, #F6F9FF 100%);
     border-top: 1px solid #D8E3FE;
     border-bottom: 1px solid #D8E3FE;
-=======
->>>>>>> f26da7d4d3de370a2a378ffdc68c68d396fd6731
 }
 
 .quotes__container {
     max-width: 888px;
 }
 
-<<<<<<< HEAD
 .quotes__content {
     max-width: 333px;
+    width: 100%;
 }
 
 .quotes__subtitle {
@@ -946,6 +943,7 @@ template {
 
 .quotes__carousel {
     max-width: 423px;
+    width: 100%;
 }
 
 .quotes__carousel-item {
@@ -973,14 +971,17 @@ template {
     height: 62px;
     -o-object-fit: contain;
     object-fit: contain;
+    -webkit-transform: translateY(31px);
+    transform: translateY(31px);
+    margin-bottom: 47px;
 }
 
-.quotes__carousel-indicators-item .active {
+.quotes__carousel-indicators .active {
     opacity: 1;
     background-color: #5283FF;
 }
 
-.quotes__carousel-indicators-item .li {
+.quotes__carousel-indicators li {
     width: 8px;
     height: 8px;
     border-radius: 50%;
@@ -989,8 +990,6 @@ template {
     background-color: #D1D6E3;
 }
 
-=======
->>>>>>> f26da7d4d3de370a2a378ffdc68c68d396fd6731
 .faq {
     padding-top: 176px;
     padding-bottom: 174px;
