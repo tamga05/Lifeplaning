@@ -696,7 +696,7 @@ template {
     max-width: 918px;
     width: 100%;
     padding: 0 15px; }
-  @media screen and (max-width: 782px) {
+  @media screen and (max-width: 785px) {
     .quotes__wrapper {
       flex-direction: column;
       align-items: center;

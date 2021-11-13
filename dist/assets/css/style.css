@@ -904,7 +904,19 @@ template {
 }
 
 .quotes__container {
-    max-width: 888px;
+    max-width: 918px;
+    width: 100%;
+    padding: 0 15px;
+}
+
+@media screen and (max-width: 782px) {
+    .quotes__wrapper {
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-align: center;
+        align-items: center;
+        row-gap: 30px;
+    }
 }
 
 .quotes__content {
@@ -962,7 +974,7 @@ template {
     color: #676F95;
     background: #FFFFFF;
     border: 1px solid #D8E3FE;
-    box-shadow: 0px 5px 50px #F3F5FA;
+    box-shadow: 0px 5px 50px #E0E5F3;
 }
 
 .quotes__carousel-item-quote {
@@ -990,8 +1002,13 @@ template {
     height: 8px;
     border-radius: 50%;
     margin-right: 12px;
-    margin-left: 12 px;
     background-color: #D1D6E3;
+}
+
+@media screen and (max-width: 320px) {
+    .quotes__carousel-indicators li {
+        margin-right: 8px;
+    }
 }
 
 .faq {
