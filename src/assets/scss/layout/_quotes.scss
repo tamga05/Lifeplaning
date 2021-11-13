@@ -87,7 +87,7 @@
         height: 62px;
         object-fit: contain;
         transform: translateY(-31px);
-        margin-bottom: 47px;
+        margin-bottom: 27px;
     }
 
     &__carousel-indicators .active {
@@ -102,6 +102,8 @@
         margin-right: 6px;
         margin-left: 6px;
         background-color: #D1D6E3;
+        border-top: 0;
+        border-bottom: 0;
 
         @media screen and(max-width: 320px) {
             margin-right: 4px;

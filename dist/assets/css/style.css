@@ -989,7 +989,7 @@ template {
     object-fit: contain;
     -webkit-transform: translateY(-31px);
     transform: translateY(-31px);
-    margin-bottom: 47px;
+    margin-bottom: 27px;
 }
 
 .quotes__carousel-indicators .active {
@@ -1004,6 +1004,8 @@ template {
     margin-right: 6px;
     margin-left: 6px;
     background-color: #D1D6E3;
+    border-top: 0;
+    border-bottom: 0;
 }
 
 @media screen and (max-width: 320px) {
