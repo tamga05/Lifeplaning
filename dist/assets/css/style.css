@@ -401,6 +401,37 @@ template {
   src: url("./../fonts/gothic/Schwabacher.woff2") format("woff2");
 }
 
+.indicators .active {
+    opacity: 1;
+    background-color: #5283FF;
+}
+
+.indicators li {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 6px;
+    margin-left: 6px;
+    background-color: #D1D6E3;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+@media screen and (max-width: 320px) {
+    .indicators li {
+        margin-right: 4px;
+        margin-left: 4px;
+    }
+}
+
+li:first-of-type {
+    margin-left: 0;
+}
+
+li:last-of-type {
+    margin-right: 0;
+}
+
 .customers {
     border-top: 1px solid #D8E3FE;
     border-bottom: 1px solid #D8E3FE;
@@ -926,6 +957,18 @@ template {
     margin-bottom: 92px;
 }
 
+.blog__prev-icon {
+    background-image: url(./../images/blog/arrow-left.svg);
+    width: 27px;
+    height: 19px;
+}
+
+.blog__next-icon {
+    background-image: url(./../images/blog/arrow-right.svg);
+    width: 27px;
+    height: 19px;
+}
+
 .quotes {
     padding-top: 109px;
     padding-bottom: 108px;
@@ -1021,37 +1064,6 @@ template {
     -webkit-transform: translateY(-31px);
     transform: translateY(-31px);
     margin-bottom: 27px;
-}
-
-.quotes__carousel-indicators .active {
-    opacity: 1;
-    background-color: #5283FF;
-}
-
-.quotes__carousel-indicators li {
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    margin-right: 6px;
-    margin-left: 6px;
-    background-color: #D1D6E3;
-    border-top: 0;
-    border-bottom: 0;
-}
-
-@media screen and (max-width: 320px) {
-    .quotes__carousel-indicators li {
-        margin-right: 4px;
-        margin-left: 4px;
-    }
-}
-
-.quotes li:first-of-type {
-    margin-left: 0;
-}
-
-.quotes li:last-of-type {
-    margin-right: 0;
 }
 
 .faq {

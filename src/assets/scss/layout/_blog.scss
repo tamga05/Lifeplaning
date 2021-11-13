@@ -27,4 +27,19 @@
         color: #3D4F9F;
         margin-bottom: 92px;
     }
+
+    
+
+
+    &__prev-icon {
+        background-image: url(./../images/blog/arrow-left.svg);
+        width: 27px;
+        height: 19px;
+    }
+
+    &__next-icon {
+        background-image: url(./../images/blog/arrow-right.svg);
+        width: 27px;
+        height: 19px;
+    }
 }
