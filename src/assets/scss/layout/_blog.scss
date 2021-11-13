@@ -1,0 +1,30 @@
+.blog {
+    padding-top: 104px;
+    padding-bottom: 104px;
+    background: #F5F8FF;
+
+    &__container {
+        max-width: 1184px;
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    &__subtitle {
+        font-family: "Roboto-Medium", sans-serif;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 12px;
+        letter-spacing: 0.1em;
+        color: #3D4F9F;
+        margin-bottom: 20px;
+    }
+
+    &__title {
+        font-family: "Quicksand-Medium", sans-serif;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 30px;
+        color: #3D4F9F;
+        margin-bottom: 92px;
+    }
+}
