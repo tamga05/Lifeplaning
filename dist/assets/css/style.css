@@ -907,10 +907,6 @@ template {
     max-width: 888px;
 }
 
-.quotes__wrapper {
-    row-gap: 20px !important;
-}
-
 .quotes__content {
     max-width: 333px;
     width: 100%;
