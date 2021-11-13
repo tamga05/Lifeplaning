@@ -99,12 +99,21 @@
         width: 8px;
         height: 8px;
         border-radius: 50%;
-        margin-right: 12px;
-        //margin-left: 12 px;
+        margin-right: 6px;
+        margin-left: 6px;
         background-color: #D1D6E3;
 
         @media screen and(max-width: 320px) {
-            margin-right: 8px;
+            margin-right: 4px;
+            margin-left: 4px;
         }
+    }
+
+    li:first-of-type {
+        margin-left: 0;
+    }
+
+    li:last-of-type {
+        margin-right: 0;
     }
 }
