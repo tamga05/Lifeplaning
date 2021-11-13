@@ -693,7 +693,14 @@ template {
   border-top: 1px solid #D8E3FE;
   border-bottom: 1px solid #D8E3FE; }
   .quotes__container {
-    max-width: 888px; }
+    max-width: 918px;
+    width: 100%;
+    padding: 0 15px; }
+  @media screen and (max-width: 782px) {
+    .quotes__wrapper {
+      flex-direction: column;
+      align-items: center;
+      row-gap: 30px; } }
   .quotes__content {
     max-width: 333px;
     width: 100%; }
@@ -737,7 +744,7 @@ template {
     color: #676F95;
     background: #FFFFFF;
     border: 1px solid #D8E3FE;
-    box-shadow: 0px 5px 50px #F3F5FA; }
+    box-shadow: 0px 5px 50px #E0E5F3; }
   .quotes__carousel-item-quote {
     max-width: 313px;
     padding: 0 15px; }
@@ -755,8 +762,10 @@ template {
     height: 8px;
     border-radius: 50%;
     margin-right: 12px;
-    margin-left: 12 px;
     background-color: #D1D6E3; }
+    @media screen and (max-width: 320px) {
+      .quotes__carousel-indicators li {
+        margin-right: 8px; } }
 
 .faq {
   padding-top: 176px;
