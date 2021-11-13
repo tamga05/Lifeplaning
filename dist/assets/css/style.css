@@ -907,6 +907,10 @@ template {
     max-width: 888px;
 }
 
+.quotes__wrapper {
+    row-gap: 20px !important;
+}
+
 .quotes__content {
     max-width: 333px;
     width: 100%;
@@ -948,14 +952,10 @@ template {
 
 .quotes__carousel-item {
     width: 100%;
-    background: #FFFFFF;
-    border: 1px solid #D8E3FE;
-    box-shadow: 0px 5px 50px #F3F5FA;
-    margin-bottom: 78px;
 }
 
 .quotes__carousel-item-text {
-    max-width: 283px;
+    max-width: 423px;
     padding-top: 41px;
     padding-bottom: 53px;
     font-family: "Roboto-Regular", sans-serif;
@@ -964,6 +964,14 @@ template {
     line-height: 24px;
     letter-spacing: 0.03em;
     color: #676F95;
+    background: #FFFFFF;
+    border: 1px solid #D8E3FE;
+    box-shadow: 0px 5px 50px #F3F5FA;
+}
+
+.quotes__carousel-item-quote {
+    max-width: 313px;
+    padding: 0 15px;
 }
 
 .quotes__carousel-item-img {
@@ -971,8 +979,8 @@ template {
     height: 62px;
     -o-object-fit: contain;
     object-fit: contain;
-    -webkit-transform: translateY(31px);
-    transform: translateY(31px);
+    -webkit-transform: translateY(-31px);
+    transform: translateY(-31px);
     margin-bottom: 47px;
 }
 
