@@ -739,7 +739,8 @@ li:last-of-type {
     width: 100%;
     background: #FFFFFF;
     padding-top: 63px;
-    padding-bottom: 64px; }
+    padding-bottom: 64px;
+    margin-bottom: 101px; }
   .blog__carousel-item-1 {
     max-width: 882px;
     width: 100%;
@@ -824,11 +825,15 @@ li:last-of-type {
   .blog__prev-icon {
     background-image: url(./../images/blog/arrow-left.svg);
     width: 27px;
-    height: 19px; }
+    height: 19px;
+    transform: translateX(-75px); }
   .blog__next-icon {
     background-image: url(./../images/blog/arrow-right.svg);
     width: 27px;
-    height: 19px; }
+    height: 19px;
+    transform: translateX(75px); }
+  .blog__indicators {
+    transform: translateY(101px) !important; }
 
 .quotes {
   padding-top: 109px;
