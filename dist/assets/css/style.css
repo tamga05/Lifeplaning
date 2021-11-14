@@ -964,6 +964,7 @@ li:last-of-type {
     background: #FFFFFF;
     padding-top: 63px;
     padding-bottom: 64px;
+    margin-bottom: 101px;
 }
 
 .blog__carousel-item-1 {
@@ -1082,12 +1083,21 @@ li:last-of-type {
     background-image: url(./../images/blog/arrow-left.svg);
     width: 27px;
     height: 19px;
+    -webkit-transform: translateX(-75px);
+    transform: translateX(-75px);
 }
 
 .blog__next-icon {
     background-image: url(./../images/blog/arrow-right.svg);
     width: 27px;
     height: 19px;
+    -webkit-transform: translateX(75px);
+    transform: translateX(75px);
+}
+
+.blog__indicators {
+    -webkit-transform: translateY(101px) !important;
+    transform: translateY(101px) !important;
 }
 
 .quotes {
