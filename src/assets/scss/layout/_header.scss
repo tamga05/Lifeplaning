@@ -14,8 +14,8 @@
     }
 
     &__nav {
-        font-family: "Quicksand-Medium", sans-serif;
-        font-weight: 500;
+        font-family: "Quicksand-Medium", sans-serif!important;
+        font-weight: 500!important;
         font-size: 12px;
         line-height: 15px;
         letter-spacing: 0.05em;
@@ -25,13 +25,9 @@
         margin-right: 42px;
     }
 
-    &__nav:last-of-type {
-        margin-right: 0;
-    }
-
     &__nav:hover {
-        font-family: "Quicksand-Bold", sans-serif;
-        font-weight: 700;
+        font-family: "Quicksand-Bold", sans-serif!important;
+        font-weight: 700!important;
         font-size: 12px;
         line-height: 15px;
         letter-spacing: 0.05em;
@@ -41,14 +37,19 @@
     }
 
     &__nav:active {
-        font-family: "Quicksand-Bold", sans-serif;
-        font-weight: 700;
+        font-family: "Quicksand-Bold", sans-serif!important;
+        font-weight: 700!important;
         font-size: 12px;
         line-height: 15px;
         letter-spacing: 0.05em;
         text-transform: capitalize;
         color: #5E81FE!important;
         text-shadow: 0px 0px 5px #E6E6E6;
+    }
+
+    &__social {
+        margin-left: 36px;
+        margin-right: 44px;
     }
 }
 

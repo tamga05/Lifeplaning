@@ -480,10 +480,6 @@ li:last-of-type {
     margin-right: 42px;
 }
 
-.header__nav:last-of-type {
-    margin-right: 0;
-}
-
 .header__nav:hover {
     font-family: "Quicksand-Bold", sans-serif;
     font-weight: 700;
@@ -504,6 +500,11 @@ li:last-of-type {
     text-transform: capitalize;
     color: #5E81FE !important;
     text-shadow: 0px 0px 5px #E6E6E6;
+}
+
+.header__social {
+    margin-left: 36px;
+    margin-right: 44px;
 }
 
 .navbar-block {
