@@ -7,6 +7,8 @@
 
 @import "./components/fonts";
 @import "./components/indicators";
+@import "./components/btn-lightblue";
+@import "./components/navbar-block";
 //@import "./components/logo";
 //@import "./components/btn";
 //@import "./components/title";
@@ -14,7 +16,7 @@
 //@import "./components/heading";
 
 
-//@import "./layout/header";
+@import "./layout/header";
 @import "./layout/customers";
 @import "./layout/plan-manage";
 @import "./layout/features";
@@ -24,4 +26,4 @@
 @import "./layout/faq";
 @import "./layout/get-started";
 @import "./layout/newsletter";
-//@import "./layout/footer";
+@import "./layout/footer";
