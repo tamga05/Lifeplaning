@@ -967,17 +967,24 @@ li:last-of-type {
     margin-bottom: 101px;
 }
 
-.blog__carousel-item {
-    max-width: 882px;
+.blog__item-wrapper {
+    max-width: 912px;
+    padding: 0 15px;
     width: 100%;
     -webkit-transform: translateX(35px);
     transform: translateX(35px);
-    display: -ms-flexbox !important;
-    display: flex !important;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+}
+
+@media screen and (max-width: 874px) {
+    .blog__item-wrapper {
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-align: center;
+        align-items: center;
+        row-gap: 20px;
+    }
 }
 
 .blog__left-block {
@@ -990,6 +997,12 @@ li:last-of-type {
     -moz-column-gap: 10px;
     column-gap: 10px;
     row-gap: 11px;
+}
+
+@media screen and (max-width: 540px) {
+    .blog__left-block {
+        display: none;
+    }
 }
 
 .blog__img-big {
@@ -1019,6 +1032,7 @@ li:last-of-type {
 .blog__right-block {
     max-width: 408px;
     width: 100%;
+    padding-right: 15px;
 }
 
 .blog__subtitle {
@@ -1031,7 +1045,7 @@ li:last-of-type {
 }
 
 .blog__text {
-    max-width: 400px;
+    max-width: 408px;
     font-family: "Roboto-Regular", sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -1039,6 +1053,14 @@ li:last-of-type {
     letter-spacing: 0.03em;
     color: #8D96BD;
     margin-bottom: 31px;
+}
+
+@media screen and (max-width: 435px) {
+    .blog__btn-block {
+        -ms-flex-direction: column;
+        flex-direction: column;
+        row-gap: 20px;
+    }
 }
 
 .blog__btn-left {
@@ -1080,6 +1102,18 @@ li:last-of-type {
     color: #A6B6DA;
 }
 
+@media screen and (max-width: 435px) {
+    .blog__btn-right {
+        outline: 2px solid #3A79FF;
+    }
+}
+
+@media screen and (max-width: 1015px) {
+    .blog__control-prev {
+        display: none;
+    }
+}
+
 .blog__prev-icon {
     background-image: url(./../images/blog/arrow-left.svg);
     width: 27px;
@@ -1089,7 +1123,7 @@ li:last-of-type {
 }
 
 @media screen and (max-width: 1015px) {
-    .blog__prev-icon {
+    .blog__control-next {
         display: none;
     }
 }
@@ -1100,12 +1134,6 @@ li:last-of-type {
     height: 19px;
     -webkit-transform: translateX(75px);
     transform: translateX(75px);
-}
-
-@media screen and (max-width: 1015px) {
-    .blog__next-icon {
-        display: none;
-    }
 }
 
 .blog__indicators {
