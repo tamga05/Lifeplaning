@@ -1820,7 +1820,7 @@ li:last-of-type {
 }
 
 @media screen and (max-width: 991px) {
-    .footer__navbar_nav {
+    .footer__navbar-nav {
         -ms-flex-direction: row;
         flex-direction: row;
         -ms-flex-pack: center;
@@ -1832,7 +1832,7 @@ li:last-of-type {
 }
 
 @media screen and (max-width: 300px) {
-    .footer__navbar_nav {
+    .footer__navbar-nav {
         -ms-flex-direction: column-reverse;
         flex-direction: column-reverse;
         -ms-flex-pack: center;
