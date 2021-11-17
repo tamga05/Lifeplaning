@@ -445,7 +445,6 @@ li:last-of-type {
     text-transform: capitalize;
     color: #5E81FE !important;
     text-shadow: 0px 0px 5px #E6E6E6;
-    border: #fa878d;
     transform: translateY(-5px); }
   .header__nav:active {
     font-family: "Quicksand-Bold", sans-serif !important;
