@@ -562,6 +562,16 @@ li:last-of-type {
     }
 }
 
+.hero-image {
+    border-top: 1px solid #D8E3FE;
+    padding-top: 37px;
+    background: url(./../images/hero-image/wave.svg), url(./../images/hero-image/hero-image.svg), linear-gradient(180deg, #F4F7FF 0%, #F1F5FF 100%);
+    background-position: bottom, top, center;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: 100% auto;
+    height: 570px;
+}
+
 .customers {
     border-top: 1px solid #D8E3FE;
     border-bottom: 1px solid #D8E3FE;
