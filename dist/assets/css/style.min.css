@@ -483,7 +483,7 @@ li:last-of-type {
   .customers__row {
     column-gap: 20px;
     row-gap: 30px; }
-    @media screen and (max-width: 694px) {
+    @media screen and (max-width: 711px) {
       .customers__row {
         justify-content: center !important; } }
 

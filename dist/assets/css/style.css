@@ -1295,7 +1295,7 @@ li:last-of-type {
     padding: 0 15px;
 }
 
-@media screen and (max-width: 785px) {
+@media screen and (max-width: 802px) {
     .quotes__wrapper {
         -ms-flex-direction: column;
         flex-direction: column;
