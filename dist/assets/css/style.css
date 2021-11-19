@@ -530,8 +530,8 @@ li:last-of-type {
     text-transform: capitalize;
     color: #5E81FE !important;
     text-shadow: 0px 0px 5px #E6E6E6;
-    -webkit-transform: translateY(-5px);
-    transform: translateY(-5px);
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
 }
 
 .header__nav:active {
@@ -568,8 +568,8 @@ li:last-of-type {
     background-position: center, center;
     background-blend-mode: lighten;
     background-size: cover;
-    height: 570px;
     position: relative;
+    height: 570px;
 }
 
 .hero-image__bg-line {
@@ -1108,22 +1108,25 @@ li:last-of-type {
     max-width: 958px;
     width: 100%;
     background: #FFFFFF;
-    padding-top: 63px;
-    padding-bottom: 64px;
     margin-bottom: 101px;
+    padding: 63px 41px 64px 35px;
+}
+
+@media screen and (max-width: 350px) {
+    .blog__inner {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
 }
 
 .blog__item-wrapper {
-    max-width: 912px;
-    padding: 0 15px;
+    max-width: 882px;
     width: 100%;
-    -webkit-transform: translateX(35px);
-    transform: translateX(35px);
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
 
-@media screen and (max-width: 891px) {
+@media screen and (max-width: 937px) {
     .blog__item-wrapper {
         -ms-flex-direction: column;
         flex-direction: column;
@@ -1131,8 +1134,6 @@ li:last-of-type {
         align-items: center;
         row-gap: 20px;
         padding: 0;
-        -webkit-transform: translateX(-35px);
-        transform: translateX(-35px);
     }
 }
 
@@ -1181,7 +1182,7 @@ li:last-of-type {
 .blog__right-block {
     max-width: 408px;
     width: 100%;
-    padding-right: 15px;
+    padding: 0 15px;
 }
 
 .blog__subtitle {
@@ -1257,7 +1258,7 @@ li:last-of-type {
     }
 }
 
-@media screen and (max-width: 1015px) {
+@media screen and (max-width: 1035px) {
     .blog__control-prev {
         display: none;
     }
@@ -1271,7 +1272,7 @@ li:last-of-type {
     transform: translateX(-75px);
 }
 
-@media screen and (max-width: 1015px) {
+@media screen and (max-width: 1035px) {
     .blog__control-next {
         display: none;
     }
