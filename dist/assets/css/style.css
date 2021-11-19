@@ -563,17 +563,24 @@ li:last-of-type {
 }
 
 .hero-image__container {
-    position: relative;
-    background: url(./../images/hero-image/bg-image.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background: url(./../images/hero-image/bg-image.png), linear-gradient(180deg, #F4F7FF 0%, #F1F5FF 100%);
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+    background-blend-mode: lighten;
     height: 570px;
+    background-size: 100% 100%;
+    position: relative;
 }
 
-.hero-image__bg-image {
+.hero-image__bg-line {
     position: absolute;
-    top: 0;
-    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+
+.hero-image__circle-1 {
+    display: none;
 }
 
 .customers {
