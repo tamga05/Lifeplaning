@@ -1755,7 +1755,7 @@ li:last-of-type {
     row-gap: 10px;
 }
 
-@media screen and (max-width: 492px) {
+@media screen and (max-width: 509px) {
     .newsletter__form {
         -ms-flex-pack: center;
         justify-content: center;

@@ -502,14 +502,14 @@ li:last-of-type {
     justify-content: flex-end;
     align-items: center;
     flex-wrap: wrap; }
-    @media screen and (max-width: 1158px) {
+    @media screen and (max-width: 1173px) {
       .plan-manage__container {
         flex-direction: column;
         justify-content: center; } }
   .plan-manage__content-block {
     max-width: 413px;
     margin-right: 61px; }
-    @media screen and (max-width: 1158px) {
+    @media screen and (max-width: 1173px) {
       .plan-manage__content-block {
         margin-right: 0;
         margin-bottom: 50px; } }

@@ -10,7 +10,7 @@
         align-items: center;
         flex-wrap: wrap;
 
-        @media screen and (max-width: 1158px) {
+        @media screen and (max-width: 1173px) {
             flex-direction: column;
             justify-content: center;
         }
@@ -24,7 +24,7 @@
         max-width: 413px;
         margin-right: 61px;
 
-        @media screen and (max-width: 1158px) {
+        @media screen and (max-width: 1173px) {
             margin-right: 0;
             margin-bottom: 50px;
         }
