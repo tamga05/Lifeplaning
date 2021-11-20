@@ -1242,6 +1242,12 @@ li:last-of-type {
     color: #3A79FF;
 }
 
+@media screen and (max-width: 435px) {
+    .blog__btn-left {
+        margin-right: 0;
+    }
+}
+
 .blog__btn-right {
     width: 211px;
     height: 43px;
@@ -1658,7 +1664,7 @@ li:last-of-type {
     line-height: 16px;
 }
 
-@media screen and (max-width: 315px) {
+@media screen and (max-width: 335px) {
     .get-started__btn-left {
         border-radius: 5px !important;
     }
@@ -1687,8 +1693,10 @@ li:last-of-type {
     margin-bottom: 91px;
 }
 
-@media screen and (max-width: 315px) {
+@media screen and (max-width: 335px) {
     .btn-group {
+        -ms-flex-direction: column;
+        flex-direction: column;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
         row-gap: 10px;

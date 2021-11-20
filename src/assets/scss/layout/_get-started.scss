@@ -48,7 +48,7 @@
         font-size: 13px;
         line-height: 16px;
 
-        @media screen and(max-width: 315px) {
+        @media screen and(max-width: 335px) {
             //border-top-right-radius: 5px;
             //border-bottom-right-radius: 5px;
             border-radius: 5px!important;
@@ -65,7 +65,7 @@
         font-size: 13px;
         line-height: 16px;
 
-        @media screen and(max-width: 315px) {
+        @media screen and(max-width: 335px) {
             border: 1px solid #a0b4ff!important;
             border-radius: 5px!important;
             //border-top-left-radius: 5px;
@@ -78,7 +78,7 @@
     margin-top: 28px;
     margin-bottom: 91px;
 
-    @media screen and(max-width: 315px) {
+    @media screen and(max-width: 335px) {
         flex-wrap: wrap;
         row-gap: 10px;
     }
