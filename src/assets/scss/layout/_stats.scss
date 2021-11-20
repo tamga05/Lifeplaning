@@ -1,6 +1,13 @@
 .stats {
     border-top: 1px solid #D8E3FE;
 
+    &__wrapper {
+
+        @media screen and(max-width: 400px) {
+            flex-direction: column;
+        }
+    }
+
     &__block-left {
         background: linear-gradient(229.32deg, #6888FF 12.77%, #5E80FF 73.11%);
         padding-top: 66px;
