@@ -577,7 +577,11 @@ li:last-of-type {
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 100%;
+}
+
+.hero-image__circle-2:hover {
+    opacity: 0;
+    transition: 0.5s;
 }
 
 .customers {
@@ -683,12 +687,6 @@ li:last-of-type {
 
 .plan-manage__btn-group {
     margin: 0 !important;
-}
-
-@media screen and (max-width: 1173px) {
-    .plan-manage__btn-group {
-        margin: 0 auto;
-    }
 }
 
 @media screen and (max-width: 370px) {
