@@ -398,7 +398,8 @@ li:last-of-type {
 
 .header {
   padding-top: 19px;
-  padding-bottom: 18px; }
+  padding-bottom: 18px;
+  border-bottom: 1px solid #D8E3FE; }
   .header__container {
     max-width: 1236px;
     width: 100%;
@@ -474,10 +475,11 @@ li:last-of-type {
   position: relative;
   height: 570px; }
 
-.hero-image__bg-line {
+.hero-image__svg {
   position: absolute;
   right: 0;
-  bottom: 0; }
+  bottom: 0;
+  width: 100%; }
 
 .customers {
   border-top: 1px solid #D8E3FE;
