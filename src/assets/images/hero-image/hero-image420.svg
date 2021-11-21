@@ -13,17 +13,25 @@
 
 
 
-    <!--4-й КРУГ-->
-    <g class="hero-image__circle-4" filter="url(#filter1_d_9_326)">
-        <circle cx="1332.5" cy="109.5" r="7.5" fill="white" />
-        <circle cx="1332.5" cy="109.5" r="6.5" stroke="#5E80FE" stroke-width="2" />
-    </g>
 
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--1-я ГРУППА-->
     <g class="hero-image__group-1">
         <!--1-й КРУГ-->
         <g class="hero-image__circle-1" filter="url(#filter2_d_9_326)">
@@ -58,7 +66,7 @@
         <ellipse cx="122.277" cy="340.25" rx="1.48936" ry="1.5" fill="#5F82FF" />
         <ellipse cx="124.511" cy="331.25" rx="1.48936" ry="1.5" fill="#5F82FF" />
     </g>
-
+    <!--2-я ГРУППА-->
     <g class="hero-image__group-2" filter="url(#filter3_d_9_326)">
         <!--2-й КРУГ-->
         <g class="hero-images__circle-2" filter="url(#filter4_d_9_326)">
@@ -93,7 +101,7 @@
         <ellipse cx="530.277" cy="317.25" rx="1.48936" ry="1.5" fill="#5F82FF" />
         <ellipse cx="532.511" cy="308.25" rx="1.48936" ry="1.5" fill="#5F82FF" />
     </g>
-
+    <!--3-я ГРУППА-->
     <g class="hero-image__group-3" filter="url(#filter3_d_9_326)">
         <!--3-й КРУГ-->
         <g class="hero-image__circle-3" filter="url(#filter0_d_9_326)">
@@ -128,19 +136,13 @@
         <ellipse cx="939.277" cy="175.25" rx="1.48936" ry="1.5" fill="#5F82FF" />
         <ellipse cx="941.511" cy="166.25" rx="1.48936" ry="1.5" fill="#5F82FF" />
     </g>
-
-
-
-
-
-
-    <!--Синее СОДЕРЖИМОЕ 1-го Блока, 2-я ГРУППА, 3-й БЛОК с СОДЕРЖИМЫМ, 4-й БЛОК с СОДЕРЖИМЫМ -->
-    <g filter="url(#filter3_d_9_326)">
-
-
-
-
-
+    <!--4-я ГРУППА-->
+    <g class="hero-image__group-4" filter="url(#filter3_d_9_326)">
+        <!--4-й КРУГ-->
+        <g class="hero-image__circle-4" filter="url(#filter1_d_9_326)">
+            <circle cx="1332.5" cy="109.5" r="7.5" fill="white" />
+            <circle cx="1332.5" cy="109.5" r="6.5" stroke="#5E80FE" stroke-width="2" />
+        </g>
         <!--БОРДЕР 4-го БЛОКА (Когда закоммент, то Бордер Жирный )-->
         <mask id="path-41-inside-4_9_326" fill="white">
             <path fill-rule="evenodd" clip-rule="evenodd"
@@ -168,9 +170,7 @@
         <ellipse cx="1342.06" cy="68.25" rx="1.48936" ry="1.5" fill="#5F82FF" />
         <ellipse cx="1347.28" cy="62.25" rx="1.48936" ry="1.5" fill="#5F82FF" />
         <ellipse cx="1349.51" cy="53.25" rx="1.48936" ry="1.5" fill="#5F82FF" />
-
     </g>
-
 
     <defs>
         <filter id="filter0_d_9_326" x="902" y="201" width="45" height="45" filterUnits="userSpaceOnUse"
