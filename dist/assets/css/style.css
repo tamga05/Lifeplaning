@@ -667,6 +667,20 @@ li:last-of-type {
     }
 }
 
+.customers__img:hover {
+    -webkit-transform: translateY(-3px) scale(1.1);
+    transform: translateY(-3px) scale(1.1);
+}
+
+.customers__img:nth-child(2n):hover {
+    -webkit-transform: translateY(3px) scale(-1.1);
+    transform: translateY(3px) scale(-1.1);
+}
+
+.customers__bitbucket:hover {
+    fill: lawngreen;
+}
+
 .plan-manage {
     background-color: #F5F8FF;
     padding-top: 170px;

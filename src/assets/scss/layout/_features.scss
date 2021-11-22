@@ -40,6 +40,11 @@
 
     &__image {
         margin-bottom: 33px;
+
+        &:hover {
+            outline: 3px solid #4074f8;
+            border-radius: 50%;
+        }
     }
 
     &__subtitle {
