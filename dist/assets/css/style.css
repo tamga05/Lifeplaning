@@ -579,8 +579,67 @@ li:last-of-type {
     bottom: 0;
 }
 
-.hero-image__circle-2:hover {
+.hero-image__block-1 {
     opacity: 0;
+}
+
+.hero-image__group-1:active .hero-image__block-1 {
+    opacity: 1;
+    transition: 1s;
+}
+
+.hero-image__circle-1:hover {
+    fill: #4074f8;
+    stroke: #FFFFFF;
+    stroke-width: 10;
+    transition: 0.5s;
+}
+
+.hero-image__block-2 {
+    opacity: 0;
+}
+
+.hero-image__group-2:active .hero-image__block-2 {
+    opacity: 1;
+    transition: 1s;
+}
+
+.hero-image__circle-2:hover {
+    fill: #4074f8;
+    stroke: #FFFFFF;
+    stroke-width: 10;
+    transition: 0.5s;
+}
+
+.hero-image__block-3 {
+    opacity: 0;
+}
+
+.hero-image__group-3:active .hero-image__block-3 {
+    opacity: 1;
+    transition: 1s;
+}
+
+.hero-image__circle-3:hover {
+    fill: #4074f8;
+    stroke: #FFFFFF;
+    stroke-width: 10;
+    transition: 0.5s;
+}
+
+.hero-image__block-4 {
+    opacity: 0;
+}
+
+.hero-image__group-4:active .hero-image__block-4 {
+    opacity: 1;
+    transition: 1s;
+}
+
+.hero-image__circle-4:hover {
+    fill: #4074f8;
+    stroke: #FFFFFF;
+    stroke-width: 10;
     transition: 0.5s;
 }
 

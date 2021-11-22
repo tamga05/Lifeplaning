@@ -8,8 +8,8 @@
         background-size: cover;
         position: relative;
 
-        height: 570px;
 
+        height: 570px;
     }
 
     &__svg {
@@ -18,11 +18,69 @@
         bottom: 0;
     }
 
-    &__circle-2:hover {
+    &__block-1 {
         opacity: 0;
+    }
+
+    &__group-1:active &__block-1 {
+        opacity: 1;
+        transition: 1s;
+    }
+
+    &__circle-1:hover {
+        fill: #4074f8;
+        stroke: #FFFFFF;
+        stroke-width: 10;
         transition: 0.5s;
     }
 
+    &__block-2 {
+        opacity: 0;
+    }
+
+    &__group-2:active &__block-2 {
+        opacity: 1;
+        transition: 1s;
+    }
+
+    &__circle-2:hover {
+        fill: #4074f8;
+        stroke: #FFFFFF;
+        stroke-width: 10;
+        transition: 0.5s;
+    }
+
+    &__block-3 {
+        opacity: 0;
+    }
+
+    &__group-3:active &__block-3 {
+        opacity: 1;
+        transition: 1s;
+    }
+
+    &__circle-3:hover {
+        fill: #4074f8;
+        stroke: #FFFFFF;
+        stroke-width: 10;
+        transition: 0.5s;
+    }
+
+    &__block-4 {
+        opacity: 0;
+    }
+
+    &__group-4:active &__block-4 {
+        opacity: 1;
+        transition: 1s;
+    }
+
+    &__circle-4:hover {
+        fill: #4074f8;
+        stroke: #FFFFFF;
+        stroke-width: 10;
+        transition: 0.5s;
+    }
 }
 
 
