@@ -474,7 +474,10 @@ li:last-of-type {
   background-size: cover;
   position: relative;
   padding-top: 92px;
-  height: 570px; }
+  height: 640px; }
+  @media screen and (max-width: 1440px) {
+    .hero-image__container {
+      height: 570px; } }
 
 .hero-image__svg {
   position: absolute;

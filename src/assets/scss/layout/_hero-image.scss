@@ -9,17 +9,19 @@
         position: relative;
         padding-top: 92px;
 
+        height: 640px;
 
-        height: 570px;
-
+        @media screen and (max-width: 1440px) {
+            height: 570px;
+        }
     }
 
     &__svg {
         position: absolute;
         right: 0;
         bottom: 0;
-        //max-width: 100%;
-        //height: auto;
+
+        //height: 420px;
     }
 
     &__block-1 {
