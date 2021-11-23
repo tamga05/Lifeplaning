@@ -12,12 +12,17 @@
 
         @media screen and (max-width: 1440px) {
             height: 540px;
-            transition: 2s;
+            transition: 1s;
+        }
+
+        @media screen and (max-width: 345px) {
+            height: 640px;
+            transition: .4s;
         }
 
         @media screen and (min-width: 1440px) {
             height: 640px;
-            transition: 2s;
+            transition: 1s;
         }
     }
 
@@ -28,7 +33,7 @@
 
         //height: 420px;
 
-        @media screen and (max-width: 576px) {
+        @media screen and (max-width: 500px) {
             display: none;
         }
 
@@ -122,7 +127,7 @@
         line-height: 60px;
         color: #3D4F9F;
 
-        @media screen and (max-width: 576px) {
+        @media screen and (max-width: 315px) {
             font-size: 36px;
             line-height: 45px;
             transition: 1s;
@@ -138,7 +143,7 @@
         color: #3D4F9F;
         margin-bottom: 28px;
 
-        @media screen and (max-width: 576px) {
+        @media screen and (max-width: 315px) {
             font-size: 36px;
             line-height: 45px;
             transition: 1s;
@@ -169,8 +174,8 @@
         position: relative;
 
         &:hover {
-            transform: scale(1.2);
-            filter: drop-shadow(15px -15px 30px #4074f8);
+            //transform: scale(1.2);
+            filter: drop-shadow(15px -20px 15px #4074f8);
             transition: 1s;
         }
     }
@@ -188,38 +193,41 @@
     }
 
     &__indicators {
-        transform: translateY(262px)!important;
+        transform: translateY(247px)!important;
 
         @media screen and (max-width: 1440px) {
-            transform: translateY(162px)!important;
-            transition: 2s;
+            transform: translateY(147px)!important;
+            transition: 1s;
         }
 
         @media screen and (max-width: 800px) {
-            transform: translateY(172px)!important;
-            transition: 2s;
+            transform: translateY(162px)!important;
+            transition: 1s;
         }
 
         @media screen and (max-width: 688px) {
-            transform: translateY(177px)!important;
-            transition: 2s;
+            transform: translateY(167px)!important;
+            transition: 1s;
         }
 
         @media screen and (max-width: 630px) {
-            transform: translateY(50px)!important;
-            transition: 2s;
+            transform: translateY(40px)!important;
+            transition: 1s;
+        }
+
+        @media screen and (max-width: 208px) {
+            transform: translateY(12px)!important;
+            transition: 1s;
         }
 
         @media screen and (min-width: 1440px) {
-            transform: translateY(262px)!important;
-            transition: 2s;
+            transform: translateY(247px)!important;
+            transition: 1s;
         }
-
-
     }
 
     &__inner {
-        padding: 0px 15px;
+        padding: 0px 15px 10px;
     }
 }
 
