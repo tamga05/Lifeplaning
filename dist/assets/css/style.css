@@ -807,8 +807,8 @@ li:last-of-type {
 
 @media screen and (max-width: 208px) {
     .hero-image__indicators {
-        -webkit-transform: translateY(25px) !important;
-        transform: translateY(25px) !important;
+        -webkit-transform: translateY(12px) !important;
+        transform: translateY(12px) !important;
         transition: 1s;
     }
 }
