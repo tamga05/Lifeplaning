@@ -1,6 +1,12 @@
 .footer {
     padding: 93px 0;
 
+    @media screen and (max-width: 960px) {
+        padding-top: 40px;
+        padding-bottom: 20px;
+        transition: 1s;
+    }
+
     &__container {
         max-width: 1236px;
         width: 100%;

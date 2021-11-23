@@ -6,6 +6,12 @@
         max-width: 917px;
         padding-top: 118px;
         padding-bottom: 119px;
+
+        @media screen and (max-width: 960px) {
+            padding-top: 40px;
+            padding-bottom: 40px;
+            transition: 1s;
+        }
     }
 
     &__row {
